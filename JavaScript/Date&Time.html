@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Date And Time</title>
+</head>
+<body>
+    <div class="container">
+        This is a container
+    </div>
+    <script>
+        console.log("This is date and time notes");
+        // let now = new Date();
+        // console.log(now);
+
+        // // to get reference date and we can add any number on place of milli-seconds(0)
+        // let date = new Date(0);
+        // console.log(date);
+
+        // // you can write any date to get that date
+        // let newDate = new Date(year, month, date, hours, minutes, seconds, milliseconds); 
+        let newDate = new Date("2019-09-12");
+        // console.log(newDate);
+
+        // let yr = newDate.getFullYear();
+        // console.log(yr);
+        // let dt = newDate.getDate();
+        // console.log(dt);
+        // let month = newDate.getMonth();
+        // console.log(month);
+        // let hour = newDate.getHours();
+        // console.log(hour);
+        // let day = newDate.getDay();
+        // console.log(day);
+
+        // it can also auto-correct 32 as 1 or 2 according to the month
+        newDate.setDate(5);
+        console.log(newDate);
+
+        
+    </script>
+</body>
+</html>
